@@ -1,0 +1,82 @@
+body {
+    background-image:url(https://st3.depositphotos.com/1001279/13897/i/1600/depositphotos_138978026-stock-photo-inside-7-eleven-store.jpg);
+    font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h6 {color:#333333;}
+
+.section {
+    border-top: solid 5px #333333;
+    background-color:white;
+    text-align: center;
+    padding: 1px;
+    margin: 10px 100px 10px 100px;
+}
+
+.total-price, .container {
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 100px 0px 100px;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+    align-self: center;
+}
+
+#desc {font-style: italic;}
+
+.main-container {
+    border-top: solid 5px #333333;
+    background-color:white;
+    margin: 0px 100px 0px 100px;
+   
+}
+    
+.header {
+    border-top: solid 5px #333333;
+    padding: 10px;
+    margin: 0px 100px 0px 100px;
+    background-color: white;
+    text-align: center;
+}
+
+input, button {
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 100px;
+    border: solid 1px grey;
+}
+
+.checkout{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.confirm {
+    display:flex;
+    justify-content: center;
+    margin: 00px 100px 20px 100px;
+}
+.item {
+    display:flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+p {
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+button {transition-duration: 0.4s;}
+
+button:hover {
+    background-color: grey;
+}
